@@ -18,7 +18,11 @@ declare global {
   const preferredDark: typeof autoImports.preferredDark
   const toggleDark: typeof autoImports.toggleDark
   const openSettingsWindow: typeof autoImports.openSettingsWindow
+  const restartToFinishUpdate: typeof autoImports.restartToFinishUpdate
+  const openExternal: typeof autoImports.openExternal
   const onSettingsRequested: typeof autoImports.onSettingsRequested
+  const modifierKey: typeof autoImports.modifierKey
+  const shortcutKeys: typeof autoImports.shortcutKeys
   const announcePreferences: typeof autoImports.announcePreferences
   const announceChange: typeof autoImports.announceChange
   const onPreferences: typeof autoImports.onPreferences
